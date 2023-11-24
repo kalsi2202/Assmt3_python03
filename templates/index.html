@@ -73,8 +73,10 @@
         <h1>Chuck Norris Joke of the Day</h1>
     </header>
 
-    <div id="joke-container" class="loading">Loading...</div>
-
+    <div id="joke-container" class="loading">
+        Loading...
+        <p>{{ joke }}</p>
+    </div>
     <script>
         // Fetch a Chuck Norris joke from the Chuck Norris Jokes API
         fetch('https://api.icndb.com/jokes/random')
