@@ -32,7 +32,7 @@ The project structure is organized as follows:
    pip install -r requirements.txt
    ```
    GitHub Repository
-Repository URL: [a link](https://github.com/kalsi2202/Assmt3_python03)
+   [a : Repository URL](https://github.com/kalsi2202/Assmt3_python03)
 
 ## Continuous Integration
 The project is set up for continuous integration using GitHub Actions. Each push to the repository triggers a workflow that ensures the code is properly tested.
