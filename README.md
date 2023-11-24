@@ -17,7 +17,7 @@ The project structure is organized as follows:
 
 - `app.py`: The main Flask application file containing the code for interacting with the Chuck Norris Jokes API and rendering the jokes on the web page.
 - `templates/index.html`: HTML template for rendering the Chuck Norris joke on the web page.
-- `.github/workflows/main.yml`: GitHub Actions workflow file for continuous integration.
+- `.github/workflows/python-app.yml`: GitHub Actions workflow file for continuous integration.
 - `requirements.txt`: List of Python dependencies for the project.
 
 ## Setup and Installation
@@ -26,6 +26,10 @@ The project structure is organized as follows:
    ```bash
    git clone [repository_url]
 
+   Download the dependencies using:
+   
+   pip intsall -r requirements.txt
+   ```
    GitHub Repository
 Repository URL: [GitHub Repository URL]
 
