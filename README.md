@@ -25,3 +25,19 @@ The project structure is organized as follows:
 1. Clone the repository:
    ```bash
    git clone [repository_url]
+
+   GitHub Repository
+Repository URL: [GitHub Repository URL]
+
+Continuous Integration
+The project is set up for continuous integration using GitHub Actions. Each push to the repository triggers a workflow that ensures the code is properly tested.
+
+Render Deployment
+Render URL: [Render Deployment URL]
+
+Configuration
+Ensure that you configure any environment variables or settings necessary for the proper functioning of the application on Render.
+
+Testing
+Access the deployed web service on Render.
+Verify that the Chuck Norris jokes are displayed correctly on the web page.
