@@ -26,7 +26,7 @@ The project structure is organized as follows:
    ```bash
    git clone https://github.com/kalsi2202/Assmt3_python03.git
    ```
-   Download the dependencies using:
+2.  Download the dependencies using:
 
    ```
    pip install -r requirements.txt
