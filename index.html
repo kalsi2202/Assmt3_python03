@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuck Norris Jokes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #joke-container {
+            font-size: 18px;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #joke-container.loading {
+            text-align: center;
+            color: #888;
+        }
+
+        #joke-container.loading::after {
+            content: '...loading';
+            animation: dots 1s infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% {
+                content: '...loading';
+            }
+            40% {
+                content: '...loading.';
+            }
+            60% {
+                content: '...loading..';
+            }
+            80%, 100% {
+                content: '...loading...';
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Chuck Norris Joke of the Day</h1>
-    <p id="joke-container">Loading...</p>
+<!--     <p id="joke-container">Loading...</p> -->
     <p>{{ joke }}</p>
 
     <script>
