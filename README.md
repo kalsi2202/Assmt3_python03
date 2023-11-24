@@ -1,1 +1,27 @@
 # Assmt3_python03
+
+# Chuck Norris Jokes Flask Web Service
+
+## Overview
+
+This project is a Flask web service that interacts with the Chuck Norris Jokes API to provide users with random Chuck Norris jokes. The goal is to showcase the integration of an external API into a Flask application. The service is deployed on both GitHub and Render for easy access.
+
+### API Used
+
+- Chuck Norris Jokes API
+  - API Documentation: [Chuck Norris Jokes API Documentation](https://api.chucknorris.io/)
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `app.py`: The main Flask application file containing the code for interacting with the Chuck Norris Jokes API and rendering the jokes on the web page.
+- `templates/index.html`: HTML template for rendering the Chuck Norris joke on the web page.
+- `.github/workflows/main.yml`: GitHub Actions workflow file for continuous integration.
+- `requirements.txt`: List of Python dependencies for the project.
+
+## Setup and Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [repository_url]
