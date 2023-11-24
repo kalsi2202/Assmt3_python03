@@ -38,7 +38,7 @@ Repository URL: [GitHub Repository URL]
 The project is set up for continuous integration using GitHub Actions. Each push to the repository triggers a workflow that ensures the code is properly tested.
 
 ## Render Deployment
-Render URL: [Render Deployment URL]
+Render URL: https://assignment3-python-xujd.onrender.com/
 
 ## Configuration
 Ensure that you configure any environment variables or settings necessary for the proper functioning of the application on Render.
