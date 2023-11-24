@@ -50,7 +50,7 @@
             content: '...loading';
             animation: dots 1s infinite;
         }
-
+/* 
         @keyframes dots {
             0%, 20% {
                 content: '...loading';
@@ -64,7 +64,7 @@
             80%, 100% {
                 content: '...loading...';
             }
-        }
+        } */
     </style>
 </head>
 
@@ -74,9 +74,10 @@
     </header>
 
     <div id="joke-container" class="loading">
-        Loading...
         <p>{{ joke }}</p>
     </div>
+    
+
     <script>
         // Fetch a Chuck Norris joke from the Chuck Norris Jokes API
         fetch('https://api.icndb.com/jokes/random')
