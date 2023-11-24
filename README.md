@@ -25,10 +25,11 @@ The project structure is organized as follows:
 1. Clone the repository:
    ```bash
    git clone [repository_url]
-
+   ```
    Download the dependencies using:
-   
-   pip intsall -r requirements.txt
+
+   ```
+   pip install -r requirements.txt
    ```
    GitHub Repository
 Repository URL: [GitHub Repository URL]
