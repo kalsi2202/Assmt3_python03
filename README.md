@@ -1,4 +1,4 @@
-# Assmt3_python03
+# Assessment 3 in Python
 
 # Chuck Norris Jokes Flask Web Service
 
@@ -24,7 +24,7 @@ The project structure is organized as follows:
 
 1. Clone the repository:
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/kalsi2202/Assmt3_python03.git
    ```
    Download the dependencies using:
 
