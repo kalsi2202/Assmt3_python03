@@ -31,15 +31,14 @@ The project structure is organized as follows:
    ```
    pip install -r requirements.txt
    ```
-   GitHub Repository
-   [ : Repository URL](https://github.com/kalsi2202/Assmt3_python03)
+   [GitHub Repository : URL](https://github.com/kalsi2202/Assmt3_python03)
 
 ## Continuous Integration
 The project is set up for continuous integration using GitHub Actions. Each push to the repository triggers a workflow that ensures the code is properly tested.
 It is implemented using Python Workflows.
 
 ## Render Deployment
-Render URL: [a link](https://assignment3-python-xujd.onrender.com/)
+[Render URL](https://assignment3-python-xujd.onrender.com/)
 
 ## Configuration
 Ensure that you configure any environment variables or settings necessary for the proper functioning of the application on Render.
